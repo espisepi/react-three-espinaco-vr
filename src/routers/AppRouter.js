@@ -16,6 +16,11 @@ export default function AppRouter () {
                         path="/"
                         component={App.App1}
                     />
+                    <PublicRoute
+                        exact
+                        path="/app2"
+                        component={App.App2}
+                    />
                 </Switch>
         </Router>
     );
