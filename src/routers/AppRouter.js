@@ -18,6 +18,11 @@ export default function AppRouter () {
                     />
                     <PublicRoute
                         exact
+                        path="/app1"
+                        component={App.App1}
+                    />
+                    <PublicRoute
+                        exact
                         path="/app2"
                         component={App.App2}
                     />
